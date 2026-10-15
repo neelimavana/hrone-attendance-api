@@ -1,0 +1,8 @@
+# What this file is: the list of files Git must never commit.
+# What it does: keeps secrets (.env), the virtual environment and Python caches out of the repository.
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
